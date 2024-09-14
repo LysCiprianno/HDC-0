@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é o carro?</title>
+</head>
+<body>
+  <p id="carro"></p>
+
+  <script>
+    var nome_do_carro = "Fusca";
+    document.getElementById("carro").innerHTML = "O nome do carro é: " + nome_do_carro;
+  </script>
+</body>
+</html>
